@@ -14,7 +14,8 @@ using namespace Linux;
 
 extern const AP_HAL::HAL& hal;
 
-#define RCIN_SYSFS_PATH "/sys/kernel/rcio/rcin"
+//#define RCIN_SYSFS_PATH "/sys/kernel/rcio/rcin"
+#define RCIN_SYSFS_PATH "/sys/kernel/rcio_mock/rcin"
 
 void RCInput_Navio2::init()
 {
